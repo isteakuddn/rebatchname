@@ -3,7 +3,8 @@
 int main(void)
 {
     int feet_u, fathom_u;
-
+    
+    printf("Fathom: ");
     scanf("%d", &fathom_u);
 
     feet_u = 6 * fathom_u;
